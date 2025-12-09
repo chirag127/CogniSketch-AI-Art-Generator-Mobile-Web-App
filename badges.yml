@@ -1,30 +1,31 @@
-build_status:
-  enabled: true
-  provider: github_actions
-  workflow_name: CI
-  branches:
-    - main
-code_coverage:
-  enabled: true
-  provider: codecov
-  branch: main
-tech_stack:
-  enabled: true
-  title: "Tech Stack"
-  icon: "https://img.shields.io/badge/Stack-TS%2CRN%2CNodeJS-blue?style=flat-square"
-  link: "https://github.com/chirag127/CogniSketch-AI-Art-Generator-Mobile-Web-App"
-lint_format:
-  enabled: true
-  title: "Lint/Format"
-  provider: biome
-  branch: main
-license:
-  enabled: true
-  provider: "cc-by-nc-4.0"
-  link: "https://github.com/chirag127/CogniSketch-AI-Art-Generator-Mobile-Web-App/blob/main/LICENSE"
-stars:
-  enabled: true
-  provider: github_stars
-  name: "chirag127"
-  repo: "CogniSketch-AI-Art-Generator-Mobile-Web-App"
-  link: "https://github.com/chirag127/CogniSketch-AI-Art-Generator-Mobile-Web-App"
+badges:
+  - name: "Build Status"
+    image_url: "https://github.com/chirag127/CogniSketch-AI-Art-Generator-Mobile-Web-App/actions/workflows/ci.yml/badge.svg?branch=main&event=push"
+    link_url: "https://github.com/chirag127/CogniSketch-AI-Art-Generator-Mobile-Web-App/actions/workflows/ci.yml"
+  - name: "Code Coverage"
+    image_url: "https://codecov.io/gh/chirag127/CogniSketch-AI-Art-Generator-Mobile-Web-App/branch/main/graph/badge.svg?token=YOUR_CODECOV_TOKEN_HERE"
+    link_url: "https://codecov.io/gh/chirag127/CogniSketch-AI-Art-Generator-Mobile-Web-App"
+  - name: "Language: TypeScript"
+    image_url: "https://img.shields.io/badge/Language-TypeScript-blue?style=flat-square&logo=typescript"
+    link_url: "https://www.typescriptlang.org/"
+  - name: "Frontend: React Native / Expo"
+    image_url: "https://img.shields.io/badge/Frontend-React_Native%2FExpo-61DAFB?style=flat-square&logo=react"
+    link_url: "https://reactnative.dev/"
+  - name: "Backend: Express.js"
+    image_url: "https://img.shields.io/badge/Backend-Express.js-000000?style=flat-square&logo=express"
+    link_url: "https://expressjs.com/"
+  - name: "AI: Google Gemini"
+    image_url: "https://img.shields.io/badge/AI-Google_Gemini-4285F4?style=flat-square&logo=google"
+    link_url: "https://ai.google.dev/"
+  - name: "Styling: TailwindCSS"
+    image_url: "https://img.shields.io/badge/Styling-TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss"
+    link_url: "https://tailwindcss.com/"
+  - name: "Lint/Format: Biome"
+    image_url: "https://img.shields.io/badge/Lint%2FFormat-Biome-4285F4?style=flat-square&logo=npm"
+    link_url: "https://biomejs.dev/"
+  - name: "License: CC BY-NC 4.0"
+    image_url: "https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey?style=flat-square"
+    link_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+  - name: "GitHub Stars"
+    image_url: "https://img.shields.io/github/stars/chirag127/CogniSketch-AI-Art-Generator-Mobile-Web-App?style=flat-square&color=FED363"
+    link_url: "https://github.com/chirag127/CogniSketch-AI-Art-Generator-Mobile-Web-App/stargazers"
