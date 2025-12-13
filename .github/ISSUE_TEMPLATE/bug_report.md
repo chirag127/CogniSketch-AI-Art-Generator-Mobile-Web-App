@@ -1,32 +1,27 @@
-# Bug Report
+# Bug Report Template
 
-## 🐛 Description
+## Description of the Issue
+Please provide a clear and concise description of the issue you are experiencing. This will help us understand the problem and troubleshoot it more efficiently.
 
-Please provide a clear and concise description of the bug. What is happening? What did you expect to happen?
+* **Expected behavior:** What was supposed to happen?
+* **Actual behavior:** What happened instead?
+* **Steps to reproduce:** How can we reproduce the issue?
 
-## 💻 Environment
+## Environment Information
+* **Operating System:** What operating system are you using?
+* **Browser/Device:** What browser or device are you using?
+* **Version:** What version of our app are you using?
 
-*   **Repository:** `https://github.com/chirag127/CogniSketch-AI-Art-Generator-Mobile-Web-App`
-*   **Device/OS:** (e.g., iOS 17.2 on iPhone 15 Pro, Android 14 on Pixel 8, Windows 11, macOS Sonoma)
-*   **Browser (if applicable):** (e.g., Chrome 120, Safari 17)
-*   **App Version (if applicable):**
-*   **Node.js Version (if applicable):**
-*   **npm/Yarn Version (if applicable):**
+## Error Messages or Logs
+If you have any error messages or logs related to the issue, please paste them here. This can be extremely helpful for our debugging process.
 
-## 📝 Steps to Reproduce
+## Additional Context
+Is there any additional context that might be helpful for us to know? This could include things like:
+* **Previous issues:** Have you experienced similar issues before?
+* **Recent changes:** Have you made any recent changes to your setup or environment?
+* **Other relevant details:** Anything else you think might be relevant to the issue?
 
-1.  Go to [URL/Screen]
-2.  Click [Button/Action]
-3.  Observe [Unexpected Behavior]
+## How to Report
+To report an issue, simply fill out this template and submit it as a new issue on our GitHub repository: https://github.com/chirag127/CogniSketch-AI-Art-Generator-Cross-Platform-App/issues
 
-## 📸 Screenshots / Videos (Optional)
-
-If possible, add screenshots or a short video to help explain your problem.
-
-## 💡 Additional Information (Optional)
-
-Provide any other context about the problem. Was this working before? Are there any related issues?
-
----
-
-_This bug report template adheres to the APEX TECHNICAL AUTHORITY standards, ensuring detailed and actionable feedback for the `CogniSketch-AI-Art-Generator-Mobile-Web-App` project._
+Thank you for taking the time to report this issue! Your help is crucial in making our app better.
